@@ -1,2 +1,2 @@
-FROM rabbitmq:3.6.5-management
+FROM rabbitmq:3.8.5-management
 RUN rabbitmq-plugins enable rabbitmq_prometheus
